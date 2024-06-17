@@ -1,0 +1,44 @@
+
+.box1 {
+    width: 225px;
+    height: 250px;
+    margin: 0px 10px;
+  }
+
+  #container {
+    justify-content: center;
+    display: flex;
+  }
+  #cont {
+    display: flex;
+    justify-content: center;
+  }
+  .box2 {
+    margin: 0px 10px;
+    width: 364px;
+    height: 180px;
+    padding-top: 40px;
+  }
+  .box2 a {
+    text-decoration: none;
+    color: grey;
+  }
+
+  #i1,
+  #i2,
+  #i3,
+  #i4 {
+    color: black;
+  }
+  #i1:hover {
+    color: rgb(159, 156, 156);
+  }
+  #i2:hover {
+    color: rgb(159, 156, 156);
+  }
+  #i3:hover {
+    color: rgb(159, 156, 156);
+  }
+  #i4:hover {
+    color: rgb(159, 156, 156);
+  }

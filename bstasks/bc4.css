@@ -1,0 +1,28 @@
+
+body {
+    align-items: center;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    flex-wrap: wrap;
+  }
+  .card .card-title {
+    position: absolute;
+    padding: 16px;
+    color: white;
+  }
+  .card span.card-title {
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    bottom: 290px;
+  }
+  .card .card-titles {
+    position: absolute;
+    padding: 15px;
+    bottom: 350px;
+    font-size: 25px;
+    color: white;
+  }

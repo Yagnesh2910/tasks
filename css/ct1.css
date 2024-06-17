@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+table{
+    margin: 100px auto;
+    width: 90%;
+    background-color: rgb(105, 188, 198);
+    border: 0.125rem solid black;
+    border-radius: 15px;
+}
+
+tr, td, th{
+    border: 0.125rem solid rgb(0, 0, 0);
+    padding: 0.125rem 0;
+    border-radius: 25px;
+}
+
+.shapes{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 35%;
+    top: 40%; 
+}
+
+.shape1{
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.shape2{
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.shape3{
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    border-radius: 25px;
+    margin: 5px;
+}
+.shape4{
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    margin: 5px;
+}
+.shape5{
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    border-radius: 3px;
+    margin: 5px;
+}
+.shape6{
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+    margin: 5px;
+}
+.shape7{
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.shape8{
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.shape9{
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px 25px;
+    margin: 5px;
+}
