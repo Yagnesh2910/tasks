@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS TASK 5</title>
+    <link rel="stylesheet" href="style5.css">
+    <script src="script5.js"></script>
+</head>
+<body>
+    <center>
+        <div class="transparent-box">
+            <form onsubmit="return validate()" action="index.html">
+                <table align="center">
+                    <tr><td>Name:</td><td><input type="text" id="name" name="name"></td><td><span id="namemsg"></span></td></tr>
+                    <tr><td>Email:</td><td> <input type="text" name="email" id="email"></td><td><span id="emailmsg"></span></td></tr>
+                    <tr><td>Website:</td><td> <input type="text" name="url" id="url"> </td><td><span id="urlmsg"></span></td></tr>
+                    <tr><td>Message:</td><td> <textarea name="msg" id="msg" cols="26" rows="5"></textarea></td><td><span id="errmsg"></span></td></tr>
+                    <tr><td></td><td><input type="submit" name="submit" id="submit"></td></tr>
+                </table>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
